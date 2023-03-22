@@ -1,7 +1,7 @@
 # mixing_quantification
 Allows quantification of mixing of a fluorophore in microfluidic channels
 
-Author Information
+### Author Information
 
 Name: Yael Suárez
 
