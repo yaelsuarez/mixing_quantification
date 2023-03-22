@@ -1,5 +1,4 @@
 # mixing_quantification
-
 Allows quantification of mixing of a fluorophore in microfluidic channels
 
 Author Information
@@ -13,7 +12,7 @@ Email: yael.suarez@farmaci.uu.se
 
 You can download mixing_quantification.ipynb as a jupyter notebook and run it with python 3.10
 
-##Requirements 
+## Requirements 
 
 - numpy
 - os
@@ -21,7 +20,7 @@ You can download mixing_quantification.ipynb as a jupyter notebook and run it wi
 - PIL 
 - pandas
 
-##Usage
+## Usage
 
 The input of the script is a local folder that contains PNG files. The script will graph a concentration plot of all the PNG files contained in the folder specified in path. Before running the script, fill in the second cell with the following information:
 
