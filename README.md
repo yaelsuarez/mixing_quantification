@@ -39,11 +39,11 @@ The input of the script is a local folder that contains PNG files. The script wi
 
 
 2. After running cell [5], a yaml configuration cell containing information for each of the images contained in the folder path, will appear:
-  - filename: r"ROI 4.png" #This will be the name of the image contained in the folder
-    filepath: r" " #This will be the path of the image contained in the folder
-    orientation: 1 # 0 = horizontal, 1 = vertical, orientation of the line to take the concentration profile
-    line_pos_x: 1250 # For vertical lines, this position must be adjusted so that the profile line is in the ROI
-    line_pos_y: 300 # For horizontal lines, this position must be adjusted so that the profile line is in the ROI
+    - filename: r"ROI 4.png" #This will be the name of the image contained in the folder
+    - filepath: r" " #This will be the path of the image contained in the folder
+    - orientation: 1 # 0 = horizontal, 1 = vertical, orientation of the line to take the concentration profile
+    - line_pos_x: 1250 # For vertical lines, this position must be adjusted so that the profile line is in the ROI
+    - line_pos_y: 300 # For horizontal lines, this position must be adjusted so that the profile line is in the ROI
 
 3. After running cell [8] the processed images will appear, and the line_pos_x or line_pos_y can be adjusted to match the ROI.
 
