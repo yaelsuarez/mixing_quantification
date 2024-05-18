@@ -26,16 +26,16 @@ You can download mixing_quantification.ipynb as a jupyter notebook and run it wi
 The input of the script is a local folder that contains PNG files. The script will graph a concentration plot of all the PNG files contained in the folder specified in path and calculate the Relative Mixing Index according to (Hashmi & Xu, 2014, DOI: 10.1177/2211068214540156). 
 
 1. Before running the script, fill in the second cell with the following information:
-    path = # The folder path where the images to be processed are contained. Images must be .png
-    save_path = r'' # The folder path where the results are to be saved
-    conc = 2 #set concentration of fluorophore
-    font_size = 14 # Font size of the graphs
-    save_status = "save" #"save" to save the PNG files, otherwise leave empty
-    reference = 0 #"No" if no reference image to normalize the rest of the images shall be taken, otherwise, index
-    title_graph = ""
-    line_or_square = "s" #"l" to plot a line and "s" to plot a square of w width in pixels
-    w = 20 #Width of pixels to use for line
-    px_to_nm = 2.09 # pixel resolution
+    - path = # The folder path where the images to be processed are contained. Images must be .png
+    - save_path = r'' # The folder path where the results are to be saved
+    - conc = 2 #set concentration of fluorophore
+    - font_size = 14 # Font size of the graphs
+    - save_status = "save" #"save" to save the PNG files, otherwise leave empty
+    - reference = 0 #"No" if no reference image to normalize the rest of the images shall be taken, otherwise, index
+    - title_graph = ""
+    - line_or_square = "s" #"l" to plot a line and "s" to plot a square of w width in pixels
+    - w = 20 #Width of pixels to use for line
+    - px_to_nm = 2.09 # pixel resolution
 
 
 2. After running cell [5], a yaml configuration cell containing information for each of the images contained in the folder path, will appear:
